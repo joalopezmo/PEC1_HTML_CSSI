@@ -1,0 +1,21 @@
+{
+  "name": "pec_i",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm-run-all clean parcel:build",
+    "dev": "parcel src/index.html --open",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "eslint \"src/**/*.js\" --quiet",
+    "test": "jest --passWithNoTests --silent"
+ },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.4.1"
+  }
+}
