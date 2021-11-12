@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm-run-all clean parcel:build",
+    "build": "parcel build ./src/portada.html --target web",
     "dev": "parcel src/index.html --open",
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "eslint \"src/**/*.js\" --quiet",
