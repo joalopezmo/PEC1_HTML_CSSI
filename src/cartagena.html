@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="img/hexagono-favicon.png" />
     <link rel="stylesheet" href="styles.css" />
     <title>Cartagena</title>
   </head>
@@ -22,8 +23,44 @@
           ><img src="img/logo.png" alt="Logo Colombia" class="logoviaje" /><span
             class="title"
             >COLOMBIA</span
-          ></a
-        >
+          ><span
+            ><svg
+              version="1.1"
+              width="100"
+              height="100"
+              viewBox="0 0 320 320"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <path id="r1">
+                  <animate
+                    id="p1"
+                    attributeName="d"
+                    values="m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0"
+                    dur="6s"
+                    repeatCount="indefinite"
+                  />
+                  <animate
+                    attributeName="stroke-width"
+                    values="0;4;4;4;0"
+                    dur="6s"
+                    repeatCount="indefinite"
+                    begin="p1.begin"
+                  />
+                </path>
+              </defs>
+              <use xlink:href="#r1" />
+              <use xlink:href="#r1" transform="rotate(60 160 160)" />
+              <use xlink:href="#r1" transform="rotate(120 160 160)" />
+              <use xlink:href="#r1" transform="rotate(180 160 160)" />
+              <use xlink:href="#r1" transform="rotate(240 160 160)" />
+              <use xlink:href="#r1" transform="rotate(300 160 160)" /></svg>
+            </span>
+        </a>
       </div>
 
       <div class="nav">
@@ -33,7 +70,12 @@
               <li><a href="index.html">Ciudades por explorar</a></li>
               <li><a href="medellin.html">Medellin</a></li>
               <li>
-                <a class="active" href="cartagena.html">Cartagena de indias</a>
+                <a
+                  class="active"
+                  alt="Cartagena de indias"
+                  href="cartagena.html"
+                  >Cartagena de indias</a
+                >
               </li>
               <li>Guatape</li>
               <li>Amazonas</li>
@@ -44,6 +86,38 @@
       </div>
     </header>
     <main>
+      <div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              img/Hyatt-Regency-Cartagena-P016-Bay-View-with-Old-City.800x450.webp
+            "
+          />
+          <img
+            class="svg-clipped"
+            style="width: auto; height: 50%"
+            src="src\img\Hyatt-Regency-Cartagena-P016-Bay-View-with-Old-City.16x9-copia.webp.png"
+            alt="Vista de la bahia del puerto de cartagena desde el hotel Hyatt"
+          />
+          <svg height="0" width="0">
+            <defs>
+              <clipPath id="svgPath">
+                <text
+                  x="0"
+                  y="300"
+                  lengthAdjust="spacing"
+                  font-size="9.5em"
+                  font-weight="700"
+                  font-style="italic"
+                >
+                  Cartagena
+                </text>
+              </clipPath>
+            </defs>
+          </svg>
+        </picture>
+      </div>
       <section>
         <div id="container2">
           <div class="text">
@@ -98,7 +172,7 @@
       <section>
         <h3>Actividades que no te puedes perder</h3>
         <div id="container3">
-          <div>
+          <div class="zoom">
             <img
               class="imagen"
               src="img/Cartagena_de_Indias_desde_el_cerro_La_Popa.jpg"
@@ -109,7 +183,7 @@
             </p>
           </div>
 
-          <div>
+          <div class="zoom">
             <img
               class="imagen"
               src="img/Atardecer_en_Cartagena_de_Indias_desde_La_Popa..jpg"
@@ -118,7 +192,7 @@
             <p class="text2">Visitar la zona amurallada en la noche.</p>
           </div>
 
-          <div>
+          <div class="zoom">
             <img
               class="imagen"
               src="img/planee-su-visita-castillo-san-felipe.jpg"
@@ -172,6 +246,44 @@
           Actividad realizada por Jorge Alejandro Lopez Montoya, para la
           asignatura Herramientas HTML y CSS I.
         </p>
+      </div>
+      <div class="svgenlace">
+        <svg
+          version="1.1"
+          width="100"
+          height="100"
+          viewBox="0 0 320 320"
+          fill="none"
+          stroke="#000"
+          stroke-linecap="round"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path id="r1">
+              <animate
+                id="p1"
+                attributeName="d"
+                values="m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0"
+                dur="6s"
+                repeatCount="indefinite"
+              />
+              <animate
+                attributeName="stroke-width"
+                values="0;4;4;4;0"
+                dur="6s"
+                repeatCount="indefinite"
+                begin="p1.begin"
+              />
+            </path>
+          </defs>
+          <use xlink:href="#r1" />
+          <use xlink:href="#r1" transform="rotate(60 160 160)" />
+          <use xlink:href="#r1" transform="rotate(120 160 160)" />
+          <use xlink:href="#r1" transform="rotate(180 160 160)" />
+          <use xlink:href="#r1" transform="rotate(240 160 160)" />
+          <use xlink:href="#r1" transform="rotate(300 160 160)" />
+        </svg>
       </div>
     </footer>
   </body>

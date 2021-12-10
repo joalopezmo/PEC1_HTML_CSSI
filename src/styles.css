@@ -153,6 +153,20 @@ h3 {
   text-align: center;
 }
 
+.svg-clipped{
+  clip-path: url(#svgPath);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.svgenlace{
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+
+
 @media (min-width: 768px) {
   .logoviaje {
     max-width: 10%;
@@ -190,7 +204,19 @@ h3 {
   }
 
   .enlaces {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+
+  footer{
+    padding-top: 5%;
+  }
+.zoom .imagen{
+  transition: width 2s, height 2s, transform 2s;  
+  }
+
+.zoom .imagen:hover{
+  transform : scale(2);
+  opacity: 1;
   }
 }
