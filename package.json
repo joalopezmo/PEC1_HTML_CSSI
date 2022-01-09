@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "build": "parcel build ./src/portada.html --target web",
     "build": "parcel build ./src/portada.html",
     "clean": "rimraf dist",
     "dev": "parcel src/index.html --open",

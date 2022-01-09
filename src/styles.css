@@ -1,4 +1,11 @@
 body {
+    height: 100%; 
+    color:  bisque;
+    background: linear-gradient(to bottom, #50bdbd, #5c7770); 
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
   height: 100%;
   color: bisque;
   background: linear-gradient(to bottom, #50bdbd, #5c7770);
@@ -26,10 +33,23 @@ header {
   padding-bottom: 2%;
 }
 
+
+.head2{
+    background-image: url(img/niels-van-altena-baUqXWWvN1c-unsplash1.jpg);
+    background-repeat: no-repeat;
+    background-position-y:0%;
+    background-size: 100%;
+    padding-bottom: 2%;
+    
+
+}
+
+
 .title {
   font-size: 5em;
   font-weight: bolder;
 }
+
 
 .title:link {
   text-decoration: none;
@@ -101,8 +121,18 @@ h1 {
   height: 100%;
 }
 
+
+main{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+h1{
+    text-align: center;
+
 .imagen:hover {
   opacity: 0.3;
+
 }
 
 footer {
@@ -129,6 +159,48 @@ footer {
   font-weight: bolder;
 }
 
+
+.subcontent1{
+    text-align: center;
+}
+
+.video-fluid iframe{
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-width: auto;
+    
+
+}
+
+.firm{
+    font-weight: bolder;
+    
+}
+
+#container2{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    column-gap: 2%;
+}
+
+#container3{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 5%;
+    row-gap: 3%;
+    padding-bottom: 20%;
+}
+
+h3{
+    text-align: center;
+}
+
+.text2{
+    text-align: center;
+
 #container2 {
   display: grid;
   grid-template-columns: 1fr;
@@ -147,6 +219,7 @@ footer {
 
 h3 {
   text-align: center;
+
 }
 
 .text2 {
@@ -172,6 +245,45 @@ h3 {
     max-width: 10%;
     text-align: left;
   }
+
+
+    #container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #container2{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .video-fluid iframe{
+        min-width: auto;
+        max-width: auto;
+        min-height: auto;
+        max-width: auto;
+
+
+    }
+
+    #container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    .imagen{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .enlaces{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        
+    }
 
   #container {
     display: grid;
