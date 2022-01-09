@@ -6,18 +6,33 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
+  height: 100%;
+  color: bisque;
+  background: linear-gradient(to bottom, #50bdbd, #5c7770);
+  font-family: "Work Sans", sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
 }
 
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
 
-.head{
-    display: inline;
-    text-align: center;
-    text-decoration: none;
-
+.head {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
 }
+
+.head2 {
+  background-image: url(img/niels-van-altena-baUqXWWvN1c-unsplash1.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 0%;
+  background-size: 100%;
+  padding-bottom: 2%;
+}
+
 
 .head2{
     background-image: url(img/niels-van-altena-baUqXWWvN1c-unsplash1.jpg);
@@ -30,63 +45,82 @@ header{
 }
 
 
-
-.title{
-    font-size: 5em;
-    font-weight: bolder;
-    
-}
-
-.title:link{
-    text-decoration: none;
-}
-
-.title:visited{
-    text-decoration: none;
-}
-
-.logoviaje{
-    max-width: 10%;
-    text-align: left;    
-    
-}
-
-header nav ul{
-    padding: 0;
-    
-}
-
-header nav li{
-    display: inline;
-    text-decoration: none;  
-    color: rgb(43, 40, 36);
-}
-
-header nav li:hover{
-    color: rgb(189, 55, 0);
-}
-
-.active{
-    text-decoration: underline;
-    font-weight: bolder;
-    color: rgb(43, 40, 36);
-}
-
-header a{
-    color: inherit;
-    text-decoration: none;
-
+.title {
+  font-size: 5em;
+  font-weight: bolder;
 }
 
 
-.recon{
-    background-image: url(img/niels-van-altena-baUqXWWvN1c-unsplash1.jpg);
-    padding: 7%;
-    background-repeat: no-repeat;
-    background-position-y:80%;
-    background-size: 100%;
-    
+.title:link {
+  text-decoration: none;
 }
+
+.title:visited {
+  text-decoration: none;
+}
+
+.logoviaje {
+  max-width: 10%;
+  text-align: left;
+}
+
+header nav ul {
+  padding: 0;
+}
+
+header nav li {
+  display: inline;
+  text-decoration: none;
+  color: rgb(43, 40, 36);
+}
+
+header nav li:hover {
+  color: rgb(189, 55, 0);
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: rgb(43, 40, 36);
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.recon {
+  background-image: url(img/niels-van-altena-baUqXWWvN1c-unsplash1.jpg);
+  padding: 7%;
+  background-repeat: no-repeat;
+  background-position-y: 80%;
+  background-size: 100%;
+}
+
+main {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 5%;
+  text-align: center;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+.imagen {
+  width: 100%;
+  height: 100%;
+}
+
 
 main{
     padding-right: 2%;
@@ -95,35 +129,36 @@ main{
 
 h1{
     text-align: center;
+
+.imagen:hover {
+  opacity: 0.3;
+
 }
 
-#container{
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 5%;
-    text-align: center;
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-right: 5%;
+footer {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.imagen{
-    width: 100%;
-    height: 100%;
+.legal2 {
+  text-align: center;
 }
 
-.imagen:hover{
-    opacity: 0.3;
+.subcontent1 {
+  text-align: center;
 }
 
-footer{
-    padding-left: 5%;
-    padding-right: 5%;
+.video-fluid iframe {
+  min-width: auto;
+  max-width: auto;
+  min-height: auto;
+  max-width: auto;
 }
 
-.legal2{
-    text-align: center;
+.firm {
+  font-weight: bolder;
 }
+
 
 .subcontent1{
     text-align: center;
@@ -165,18 +200,52 @@ h3{
 
 .text2{
     text-align: center;
+
+#container2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  column-gap: 2%;
+}
+
+#container3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 5%;
+  row-gap: 3%;
+  padding-bottom: 20%;
+}
+
+h3 {
+  text-align: center;
+
+}
+
+.text2 {
+  text-align: center;
+}
+
+.svg-clipped{
+  clip-path: url(#svgPath);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.svgenlace{
+  text-align: center;
+  padding-bottom: 5%;
 }
 
 
-@media (min-width: 768px){
 
+@media (min-width: 768px) {
+  .logoviaje {
+    max-width: 10%;
+    text-align: left;
+  }
 
-    .logoviaje{
-        max-width: 10%;
-        text-align: left;   
-        
-        
-    }
 
     #container{
         display: grid;
@@ -216,6 +285,50 @@ h3{
         
     }
 
+  #container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
+  #container2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .video-fluid iframe {
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-width: auto;
+  }
+
+  #container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+  }
+
+  .imagen {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .enlaces {
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+
+  footer{
+    padding-top: 5%;
+  }
+.zoom .imagen{
+  transition: width 2s, height 2s, transform 2s;  
+  }
+
+.zoom .imagen:hover{
+  transform : scale(2);
+  opacity: 1;
+  }
 }
- 
