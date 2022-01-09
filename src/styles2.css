@@ -22,11 +22,11 @@ div {
 }
 
 .imagen1 {
-  background-image: url(img/Guainia.jpg);
+  background-image: url(img/guania.webp);
 }
 
 .imagen2 {
-  background-image: url(img/mike-swigunski-6TTRv195rfo-unsplash.jpg);
+  background-image: url(img/mike-swigunski-6TTRv195rfo-unsplash.webp);
   mask-image: linear-gradient(
     var(--direction),
     rgba(0, 0, 0, 1) 40%,
